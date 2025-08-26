@@ -1,0 +1,47 @@
+# === Go ===
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build
+/bin/
+/build/
+/dist/
+
+# === GoLand / JetBrains IDE ===
+.idea/
+*.iml
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Logs & Temp ===
+*.log
+*.tmp
+*.swp
+
+# === Env & Secrets ===
+.env
+.env.local
+.env.*.local
+
+# === Node (se tiver UI no futuro) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# === Docker ===
+/.pgdata/
+/docker-data/
+/docker-compose.override.yml
+
+# === Coverage / Test ===
+coverage.out
